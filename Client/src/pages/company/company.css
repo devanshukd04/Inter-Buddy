@@ -1,0 +1,159 @@
+
+body {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    line-height: 150%;
+    background-color: #282C34;
+  }
+  
+  article {
+    position: relative;
+    top: 50%;
+    text-align: center;
+    transform: translate(0, -50%);
+    padding: 1rem;
+  }
+
+  .container2 {
+    display: grid;
+  }
+  
+  .left-half {
+    background: #282C34;
+    grid-column: 1;
+    align-items: center;
+    padding-right: 50px;
+  }
+  
+  .right-half {
+    background: #282C34;
+    grid-column: 2;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+    margin: 0 0 0.75rem 0;
+  }
+
+  .imgC{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 400px;
+    border-radius: 1000px;
+  }
+
+  .header{
+    /* display: block; */
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .ex1{
+    font-weight: 600;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .text{
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .component{
+    height: 140px;
+    width: 530px;
+    color: white;
+    background-color: #50545A;
+    padding: 20px;
+    padding-left: 30px;
+    /* margin: 20px; */
+    display: block;
+    margin-right: 60px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    display: grid;
+  }
+
+  .element{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .component1{
+    height: 35px;
+    width: 200px;
+    color: white;
+    background-color: #A2A4A8;
+    padding-left: 20px;
+    /* margin: 20px; */
+    margin-top: 20px;
+    font-size: 22px;
+    display: block;
+    border-radius: 20px;
+  }
+
+  .left-half-comp {
+    grid-column: 1;
+    align-items: center;
+    height: 100px;
+  }
+  
+  .right-half-comp {
+    grid-column: 2;
+    align-items: center;
+    height: 100px;
+  }
+
+  .arrow{
+    height: 100px;
+    width: 50px;
+    size: 50px;
+    float: right;
+  }
+
+  .componentAdd{
+    height: 35px;
+    color: black;
+    font-weight: 600;
+    background-color: #D9D9D9;
+    padding-left: 20px;
+    /* margin: 20px; */
+    margin-top: 10px;
+    font-size: 19px;
+    display: block;
+    border-radius: 20px;
+    display: block;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+  }
+
+  .listView{
+	height: 500px;
+	overflow-y: auto;
+    width: 650px;
+}
+
+.circularProgress{
+    display: block;
+    align-items: center;
+    margin-top: 300px;
+    margin-left: 500px;
+    height: 100px;
+    width: 200px;
+}
