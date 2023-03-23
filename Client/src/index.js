@@ -11,6 +11,7 @@ import Interview from './pages/interview/interview';
 import Company from './pages/company/company';
 import Login from './pages/login/login';
 import SignUp from './pages/signup/signup';
+import Home from './pages/home/home';
 const cID = "637b8f60e3d8bec143ba284b"
 
 
@@ -27,6 +28,7 @@ root.render(
           <Route exact path='/interviewExperience' element = {<><Interview/></>}/>
           <Route exact path='/login' element = {<><Login/></>}/>
           <Route exact path='/signup' element = {<><SignUp/></>}/>
+          <Route exact path='/home' element = {<><Home/></>}/>
 
       </Routes>
   </Router>

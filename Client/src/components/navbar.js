@@ -36,7 +36,12 @@ const Navbar=()=>{
             Sign-up
           </Link>
           </Button>}
-          
+          <Button color='inherit'>
+            <a href="http://localhost:5000/">Home</a>
+          {/* <Link style={{color: "white"}}  className="nav-link" to={'/home'}>
+            Home
+          </Link> */}
+          </Button>
           <Button color='inherit'>
           <Link style={{color: "white"}}  className="nav-link" to={'/companies'}>
             Companies
